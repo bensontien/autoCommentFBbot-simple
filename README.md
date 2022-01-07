@@ -1,4 +1,4 @@
-## autoCommentFBbot-simple
+## AutoCommentFBbot-simple
 
 ---
 
