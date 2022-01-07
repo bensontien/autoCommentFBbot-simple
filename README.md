@@ -6,8 +6,11 @@
 
 ## Enviroment
 
-使用前，請先至 https://developer.microsoft.com/zh-tw/microsoft-edge/tools/webdriver/ 下載edge的webdriver
-並將解壓縮後的msedgedriver.exe 與 autoCommentFBbot-simple放在同一個資料夾內部
+● python 3.7+
+
+● selenium 4.1.1+
+
+● 使用前，請先至 https://developer.microsoft.com/zh-tw/microsoft-edge/tools/webdriver/ 下載edge的webdriver，並將解壓縮後的msedgedriver.exe 與 autoCommentFBbot-simple放在同一個資料夾內部
 
 ## 操作
 
