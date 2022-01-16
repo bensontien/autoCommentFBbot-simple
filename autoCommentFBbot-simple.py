@@ -47,9 +47,10 @@ if len(driver.find_elements_by_xpath("//*[contains(text(), '你的帳號暫時�
 
 #------ 切換頁面 ------
 driver.get(spec_url)
-driver.implicitly_wait(10) #隱式等待
+
 
 #------ 在留言欄輸入「推推」------
+WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CSS_SELECTOR, "div[class='oo9gr5id lzcic4wl jm1wdb64 l9j0dhe7 gsox5hk5 mdldhsdk ii04i59q notranslate']")))
 e = driver.find_element_by_css_selector("div[class='oo9gr5id lzcic4wl jm1wdb64 l9j0dhe7 gsox5hk5 mdldhsdk ii04i59q notranslate']")
 
 while(1):
